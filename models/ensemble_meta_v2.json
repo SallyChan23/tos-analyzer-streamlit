@@ -1,0 +1,21 @@
+{
+  "kind": "ensemble",
+  "members": [
+    "LegalBERT_v2_run2",
+    "DistilBERT_v2_run2",
+    "SBERT_v2_run1"
+  ],
+  "weights": [
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ],
+  "classes": [
+    "arbitration",
+    "content_license",
+    "limitation_liability",
+    "privacy",
+    "prohibited_use",
+    "termination"
+  ]
+}

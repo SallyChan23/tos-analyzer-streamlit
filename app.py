@@ -23,7 +23,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Paths
 MODELS_DIR = Path("models")
-THRESHOLD = 0.35  # Fixed threshold
+THRESHOLD = 0.40  # Fixed threshold
 
 # Cache model loading
 @st.cache_resource

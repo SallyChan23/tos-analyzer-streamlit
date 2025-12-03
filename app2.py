@@ -198,7 +198,7 @@ def main():
                         "text": text,
                         "confidence": max_prob
                     })
-            
+        
             # Display results
             st.header("📊 Analysis Results")
             

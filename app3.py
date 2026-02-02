@@ -35,10 +35,7 @@ THRESHOLD = 0.40  # Fixed threshold
 # =========================
 # Low-info filtering helpers
 # =========================
-STOPWORDS = set("""
-a an the and or but if then else for to of in on at by with without from as
-is are was were be been being this that these those it its their his her
-""".split())
+STOPWORDS = set()
 
 GENERIC_SHORT = set([
     "privacy policy",
